@@ -1,5 +1,5 @@
-import joblib
-from scapy.all import sniff, IP, TCP, UDP
+import joblib # pyright: ignore[reportMissingImports]
+from scapy.all import sniff, IP, TCP, UDP # type: ignore
 from preprocess_function import preprocess_function  # Adjust if needed
 import warnings
 warnings.filterwarnings("ignore")

@@ -1,5 +1,5 @@
-from flask import Flask, jsonify, render_template
-from scapy.all import sniff, IP, TCP, UDP, ICMP, ARP
+from flask import Flask, jsonify, render_template # type: ignore
+from scapy.all import sniff, IP, TCP, UDP, ICMP, ARP # type: ignore
 import threading
 import time
 import os

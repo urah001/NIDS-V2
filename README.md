@@ -10,7 +10,8 @@
 
 # to run :
 
-> sudo "$(which python)" -u "/home/w3b/Documents/400Project/project/web-NIDS/backend/realtime_nids.py"
+> sudo "$(which python)" -u "/home/w3b/Documents/400Project/project/web-NIDS/backend/realtime_nids.py" : this file doesnt show the logs in the broswer
+> dashboard_server.py works :
 
 to run this file , user needs sudo/root priviledge to run this file therefore use this command in user is in linux :
 
@@ -172,5 +173,3 @@ pip install flask
 # REMEMBER
 
 turn back to the version you used to create your model/enviroment before you run this
-
-prompt : so the way i envisioned the project is that i want it to be like google authenticator , but the only difference is that mine would be ondemand , and it the token based system would change for every demand , it is not a password storage , also recoin the topic to something more simpler and create a 12 page slide explaining how it would be , the languages i will use ( i'm thinking i want to use python with a machine learning model that randomizes characters for the token generation or backend , nextjs with capacitor for the mobile development or frontend , and to test it i will also use Nextjs for the creation of a simple student wallet to test how flexible and efficient that token generation will be )
