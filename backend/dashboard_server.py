@@ -11,6 +11,7 @@ port_scan_tracker = {}  # Track ports hit by each IP
 arp_cache = {}          # Track ARP replies to detect spoofing
 
 def detect_abnormal(packet):
+    
     if packet.haslayer(IP):
         ip_layer = packet[IP]
         src = ip_layer.src

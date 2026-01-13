@@ -140,6 +140,7 @@ rm -rf venv
 ## Make sure your desired pyenv version is active:
 
 pyenv global 3.x.x # (replace with your real version)
+how to get ip address : ip addr show
 
 ## Check:
 
@@ -158,6 +159,7 @@ pip install --upgrade pip
 ## Install Flask again:
 
 pip install flask
+to gert
 
 # simulation
 
