@@ -8,10 +8,12 @@
 - this system detect and report intrusion
 - this system report : timestamp alert source-ip destination-ip
 
+13-1-26
+
 # to run :
 
 > sudo "$(which python)" -u "/home/w3b/Documents/400Project/project/web-NIDS/backend/realtime_nids.py" : this file doesnt show the logs in the broswer
-> dashboard_server.py works :
+> `dashboard_server.py works` :
 
 to run this file , user needs sudo/root priviledge to run this file therefore use this command in user is in linux :
 
