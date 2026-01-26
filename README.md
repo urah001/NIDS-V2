@@ -1,3 +1,5 @@
+# README OR UNDERSTANDING THE SYSTEM
+
 # how to run
 
 - to run the system or program , user first needs to navigate to the dir where the dashboard_server.py is located

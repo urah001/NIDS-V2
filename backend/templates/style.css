@@ -1,0 +1,92 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #d32f2f;
+  padding: 10px 20px;
+  color: white;
+  font-size: 24px;
+}
+
+.tabs {
+  background: #eee;
+  display: flex;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.tabs a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.container {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+  color: #444;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.toolbar select,
+.toolbar input,
+.toolbar button {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.toolbar button {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.toolbar button.download {
+  background-color: green;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.high-priority {
+  color: red;
+  font-weight: bold;
+}
+
+.low-priority {
+  color: #999;
+}
